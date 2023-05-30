@@ -1,0 +1,34 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+  
+  .scroll-to-top i {
+    display: inline-block;
+  }
+  
+  .scroll-to-top:hover {
+    background-color: #333;
+  }
+  
+  .scroll-to-top.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .entry-title {
+    font-family: Open Sans, sans-serif;
+  }  
